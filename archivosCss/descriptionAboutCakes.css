@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Roboto;
+    letter-spacing: 0.03cm;
+    line-height: 3.6;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+	background-size: cover;
+	height: 8vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	height: auto;
+	opacity: 0.8;
+	width: 110px;
+	padding: 20px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active, .navbar ul li a:hover{
+	background: rgba(16, 165, 48, 0.507);
+	border-radius: 2px;
+}
+.row .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.descripcionContainer{
+	
+	padding: 20px;
+	margin: 30px;
+	width: 1250px;
+	font-size: 20px;
+}
+p{
+	font-size: 19px;
+}
+.descripcionDelProducto{
+	text-align: justify;
+	font-size: 14px;
+	font-family: Arial
+}
+.container{
+	/*background-color: blue;*/
+	padding: 25px;
+	margin: 25px;
+	width: 500px;
+}
+h2#Ingredientes{
+	text-align: center;
+	font-size: 25px;
+	font-family: Tahoma
+}
+ul#ingredientesLista{
+	list-style: none;
+	text-align: justify;
+	font-size: 15px;
+}
+.contenido{
+	text-align: justify;
+	font-size: 14px;
+	font-family: Arial
+}
+.container2{
+	/*background-color: blue;*/
+	position: relative;
+	left: 580px; 
+	top: -495px; 
+	padding: 26px;
+	margin: 25px;
+	width: 660px;
+	font-family: Roboto
+}
+h2#metodoDePreparacion{
+	text-align: center;
+	font-family: Tahoma
+	font-size: 25px;
+}
+.preparacion{
+	font-size: 14px;
+	font-family: Arial
+}
+ol#pasosDePreparacionLista{
+	text-align: 12px;
+	text-align: justify;
+}
+.datosDeLaEmpresa{
+	/*background-color: blue;*/
+	font-family: Roboto;
+	position: relative;
+	left: 0px; 
+	top: -420px; 
+	padding: 40px;
+	margin: 0px;
+	width: auto;
+	height: auto;
+}
+.info{
+	text-align: center;
+	font-size: -6px;
+	font-family: Arial
+}
+.categoriasDeLaPaginaWeb{
+	color: #3498db;
+	list-style: none;
+	margin-right: 1010px;
+}
+.siguenos{
+	color: #3498db;
+	list-style: none;
+	margin-right: 0px;
+}
+.idiomas{
+	color: #3498db;
+	list-style: none;
+	margin-left: 1000px;
+}
