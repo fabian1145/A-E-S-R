@@ -3,8 +3,10 @@
 	padding: 0;
 	margin: 0;
 }
-.wrapper{
+body{
 	background: url(../img/fondo.jpg) no-repeat;
+}
+.wrapper{
 	background-size: cover;
 	height: 100vh;
 }
